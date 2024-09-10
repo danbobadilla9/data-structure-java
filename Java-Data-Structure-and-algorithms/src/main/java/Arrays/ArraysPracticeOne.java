@@ -26,7 +26,12 @@ public class ArraysPracticeOne {
         System.out.println("first element in array: "+firstElement);
 
        // singleDimesionArray.traverseArray();
-        singleDimesionArray.searchInArray(11);
+        //singleDimesionArray.searchInArray(11);
+
+        singleDimesionArray.delteValue(0);
+        singleDimesionArray.traverseArray();
+
+
 
     }
 
