@@ -22,6 +22,8 @@ public class ArraysPracticeTwo {
         sda.insertValueInTheArray(0,0,19);
         sda.insertValueInTheArray(1,2,5);
         System.out.println(Arrays.deepToString(sda.arr));
+        sda.accessCell(1,2);
+        sda.traverse2DArray();
 
     }
 

@@ -28,6 +28,26 @@ public class TwoDimensionArray {
         }
     }
 
+    // accediendo a un valor
+    public void accessCell(int row, int col){
+        System.out.println("\n Accesing row# "+row+" , Col# "+col);
+        try{
+            System.out.println("Cell value is: "+arr[row][col]);
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("Invalid index for 2D array");
+        }
+    }
+
+    // traverse
+    public void traverse2DArray(){
+        for(int row = 0; row < arr.length; row++){
+            for (int col = 0; col < arr[row].length; col++){
+                System.out.print(arr[row][col]+" ");
+            }
+            System.out.println();
+        }
+    }
+
 
 
 
